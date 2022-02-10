@@ -1,0 +1,70 @@
+@media screen and (max-width: 500px) {
+  * {
+    margin: 0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+  }
+
+  .header {
+    margin-top: 3vh;
+  }
+
+  .container {
+    /* border: 2px red solid; */
+    margin-top: 2vh;
+    width: 100vw;
+    height: 87vh;
+    padding-top: 2vh;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+  }
+
+  .container-inner {
+    /* border: 2px solid red; */
+    padding: 0 0;
+    margin: 0 auto;
+    height: 81vh;
+    width: 85vw;
+    grid-template-columns: none;
+    grid-template-rows: 1.4fr 1fr;
+    /* align-items: center; */
+    /* justify-content: sp; */
+  }
+
+  .leftbox {
+    height: 44vh;
+    padding: 0 0vh;
+    margin-bottom: 0vh;
+    width: 85vw;
+    /* border: 2px solid red; */
+  }
+
+  .percentage-grid {
+    /* border: 2px solid red; */
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .per-btn {
+    width: 35vw;
+    height: 5vh;
+    margin: 0 auto;
+  }
+
+  .btn6::placeholder {
+    width: 100%;
+  }
+
+  .rightbox {
+    height: 35vh;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .reset {
+    margin-top: 0vh;
+  }
+}

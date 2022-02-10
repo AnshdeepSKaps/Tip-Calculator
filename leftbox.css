@@ -1,0 +1,174 @@
+.leftbox {
+  /* box-sizing: content-box; */
+  position: relative;
+  width: 19vw;
+  padding-top: 1vh;
+  padding-left: 0.8vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.leftbox-font {
+  font-size: 0.71rem;
+  font-weight: 1000;
+  color: #6c7977;
+  text-shadow: 0 0 0.8px #6c7977;
+}
+
+.leftbox #dollar {
+  position: absolute;
+  top: 5vh;
+  left: 1.5vw;
+}
+
+.leftbox #input-bill {
+  font-size: 1.1rem;
+  font-weight: 900;
+  text-align: right;
+  margin-top: 0.8vh;
+  border: none;
+  background-color: #f3f8fb;
+  height: 4.65vh;
+  width: 100%;
+  border-radius: 5px;
+  color: hsl(183, 100%, 15%);
+}
+
+.leftbox #input-bill:focus {
+  outline: none;
+  box-shadow: 0 0 3px hsl(172, 67%, 45%), 0 0 3px hsl(172, 67%, 45%),
+  0 0 3px hsl(172, 67%, 45%);
+}
+
+.leftbox #input-bill:focus::placeholder {
+  color: transparent;
+}
+
+.percentage-grid {
+  margin-top: 1.5vh;
+  display: grid;
+  width: 100%;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.8rem;
+}
+
+.per-btn {
+  font-family: "Space Mono";
+  /* width:6vw; */
+  font-size: 1.1rem;
+  color: hsl(189, 41%, 97%);
+  border: none;
+  border-radius: 4px;
+  background-color: #00474b;
+  /* box-shadow: 0 0 2px #00474b; */
+  height: 5vh;
+  font-weight: 1000;
+  cursor:pointer;
+  width:5.5vw;
+  text-align: center;
+}
+
+.per-btn:hover{
+  background-color: rgb(165, 240, 253);
+  color: hsl(183, 100%, 15%);
+  outline:none;
+  border:none;
+}
+
+.btn6 {
+  display: inline;
+  color: #00474b;
+  font-weight: 900;
+  border: none;
+  box-shadow: none;
+  background-color: #dfe4e9;
+}
+
+.btn6:focus { 
+  outline: none;
+  border: 2px solid hsl(172, 67%, 45%);
+}
+
+.btn6::placeholder{
+  margin: 0 0;
+  padding: 0 0;
+  width: 5.5vw;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: hsl(184, 14%, 56%);
+  /* overflow: visible; */
+}
+
+.btn6:focus::placeholder{
+  color:transparent;
+}
+
+.btn6::-webkit-inner-spin-button, 
+.btn6::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* margin: 0.5vw;  */
+}
+
+/* .leftbox .per-btn:hover {
+  background-color: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+  font-weight: bolder;
+} */
+
+.leftbox #error {
+  position: absolute;
+  top: 0;
+  left: 12.3vw;
+  font-size: 0.71rem;
+  font-weight: 700;
+  color: red;
+  text-shadow: 0 0 1px #c88575;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.red {
+  box-shadow: 0 0 2px red, 0 0 2px red;
+}
+
+.leftbox #input-nop {
+  font-size: 1.1rem;
+  font-weight: 1000;
+  text-align: right;
+  margin-top: 0.8vh;
+  border: none;
+  background-color: #f3f8fb;
+  height: 4.65vh;
+  width: 100%;
+  border-radius: 5px;
+  color: #00474b;
+}
+
+.leftbox #input-nop:focus {
+  outline: none;
+  box-shadow: 0 0 3px hsl(172, 67%, 45%), 0 0 3px hsl(172, 67%, 45%),
+    0 0 3px hsl(172, 67%, 45%);
+}
+
+.leftbox #input-nop:focus::placeholder {
+  color: transparent;
+}
+
+.leftbox #person {
+  position: absolute;
+  top: 4.2vh;
+  left: 0.5vw;
+}
+
+.selected {
+  background-color: hsl(172, 67%, 45%);
+  /* border: 3px solid #00474b; */
+  color: hsl(183, 100%, 15%);
+  font-weight: bolder;
+}

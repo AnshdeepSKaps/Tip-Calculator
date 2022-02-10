@@ -1,0 +1,52 @@
+.rightbox {
+  color: hsl(189, 41%, 97%);
+  background-color: #00474b;
+  box-shadow: 0 0 1.7px #00474b;
+  border-radius: 11px;
+  display: grid;
+  padding:0 2vw;
+  padding-top: 2vh;
+  /* justify-content: center; */
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 2.2fr;
+    align-items: center;
+    justify-content: center;
+}
+
+#tip-amount, #total-amount{
+    font-size: 2.6rem;
+    font-weight: 1000;
+    color: hsl(172, 67%, 45%);
+    text-align: right;
+}
+
+.rightbox-header{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.rightbox-subheader{
+    font-size: 0.7rem;
+    color:#5f9194;
+    font-weight: 1000;
+}
+
+.reset{
+    margin: 0 auto;
+    margin-top: 7vh;
+    grid-column: 1 / span 2;
+    width: 90%;
+    height: 5vh;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(172, 67%, 45%);
+    color: #00474b;
+    font-size: 0.9rem;
+    font-weight: 1000;
+    cursor: pointer;
+}
+
+.reset:hover{
+    background-color: hsl(189deg 100% 85%);
+}
+
