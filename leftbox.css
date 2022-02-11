@@ -16,7 +16,7 @@
   text-shadow: 0 0 0.8px #6c7977;
 }
 
-.leftbox #dollar {
+#dollar {
   position: absolute;
   top: 5vh;
   left: 1.5vw;
@@ -160,7 +160,7 @@
   color: transparent;
 }
 
-.leftbox #person {
+#person {
   position: absolute;
   top: 4.2vh;
   left: 0.5vw;

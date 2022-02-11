@@ -67,4 +67,14 @@
   .reset {
     margin-top: 0vh;
   }
+
+  #dollar {
+    top: 4.4vh;
+    left: 2vw;
+  }
+
+  #person {
+    top: 4.4vh;
+    left: 2vw;
+  }
 }
